@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "removeComments": true,
+        "baseUrl": "./",
+        "paths": {
+            "*": [
+                "./src/*"
+            ]
+        },
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true, // accessing index must always check for undefined
+        "noUnusedLocals": true, // Report errors on unused local variables.
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
